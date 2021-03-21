@@ -1,0 +1,162 @@
+@font-face {
+    font-family: poppins-regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-medium;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+
+/*COMMON*/
+
+.form-control::-webkit-input-placeholder {
+    font-family: "poppins-regular";
+    font-size: 16px;
+    color: rgba(46, 21, 126, 0.4);
+}
+
+.visibility-hidden {
+    visibility: hidden;
+}
+
+
+/*input[type="button"]:disabled,input[type="button"]:hover{
+    background-color: blue;
+}
+*/
+
+
+/*Main BgColor*/
+
+body {
+    background-color: #F7F5FA;
+}
+
+#wrapper .main {
+    height: auto;
+    background-color: #F7F5FA;
+}
+
+
+/*Logo & navbar*/
+
+.navbar-default {
+    height: 80px;
+    z-index: 999999;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.0);
+}
+
+.navbar-default .brand {
+    padding: 0px 0px;
+}
+
+.navbar-default .brand img {
+    margin: 5% 0 0 5%;
+}
+
+.navbar-nav>li>a {
+    padding: 18px 20px;
+}
+
+.navbar-nav>li>a img {
+    width: 36px;
+    margin-right: 2px;
+}
+
+
+/*SideBar*/
+
+#wrapper .sidebar {
+    background-color: #2E157E;
+    z-index: 99999;
+}
+
+.sidebar .nav>li>a:focus,
+.sidebar .nav>li>a.active {
+    background-color: #240B73;
+    border-left-color: #FEC83D;
+}
+
+.sidebar .nav>li {
+    text-align: left;
+    font-family: "poppins-medium";
+    font-size: 16px;
+}
+
+.sidebar .logout {
+    position: fixed;
+    bottom: 0;
+    width: 260px;
+    height: 56px;
+    background-color: #240B73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: poppins-regular;
+}
+
+.sidebar .nav .nav {
+    background-color: #2E157E;
+}
+
+.sidebar .nav .nav>li>a {
+    padding-left: 78px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title-navbar {
+    font-family: "poppins-medium";
+    color: #2E157E;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+}
+
+.sidebar .nav-modif {
+    margin-top: 50px;
+}
+
+
+/*Main Content*/
+
+#wrapper .main {
+    /*background-color: ;*/
+    height: auto;
+}
+
+
+/*Footer*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7969AD;
+    color: white;
+    text-align: center;
+    z-index: 9999;
+}
+
+
+/*footer*/
+
+.footer .text-telp {
+    width: 100%;
+    padding-left: 30%;
+}
+
+.footer .text-email {
+    width: 100%;
+    padding-right: 10%;
+}

@@ -1,0 +1,79 @@
+/*Const color*/
+
+.pending-color {
+    color: #232323;
+    opacity: 0.4;
+}
+
+.ongoing-color {
+    color: #232323;
+    opacity: 0.4;
+}
+
+.inpection-report-color {
+    color: #18A0FB;
+}
+
+.review-color {
+    color: #00DB87;
+}
+
+.project-done-color {
+    color: #240B73;
+}
+
+.text-color-main {
+    color: #232323;
+}
+
+.main-color {
+    color: #2E157E;
+}
+
+
+/* Status */
+
+.status-pending {
+    background-color: #FEBB0F;
+    width: 114px;
+    height: 36px;
+    padding: 6px 20px 6px 20px;
+    font-family: "poppins-medium";
+    color: #ffffff;
+}
+
+.status-review {
+    background-color: #FB6826;
+    width: 114px;
+    height: 36px;
+    padding: 6px 20px 6px 20px;
+    font-family: "poppins-medium";
+    color: #ffffff;
+}
+
+.status-ongoing {
+    background-color: #FB6826;
+    width: 114px;
+    height: 36px;
+    padding: 6px 20px 6px 20px;
+    font-family: "poppins-medium";
+    color: #ffffff;
+}
+
+.status-inspection {
+    background-color: #6C63FF;
+    width: 114px;
+    height: 36px;
+    padding: 6px 20px 6px 20px;
+    font-family: "poppins-medium";
+    color: #ffffff;
+}
+
+.status-done {
+    background-color: #00DB87;
+    width: 114px;
+    height: 36px;
+    padding: 6px 20px 6px 20px;
+    font-family: "poppins-medium";
+    color: #ffffff;
+}

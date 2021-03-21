@@ -1,0 +1,140 @@
+ /*Title*/
+ 
+ .title-create-new-project {
+     width: 100%;
+     margin: 25px 0 0 0;
+ }
+ 
+ .title-create-new-project .title-text {
+     font-family: "poppins-regular";
+     font-weight: 600;
+     font-size: 24px;
+     color: #2E157E;
+     line-height: 36px;
+ }
+ /*Content*/
+ 
+ .history-inspector-place {
+     margin: 37px 0 0 0;
+     padding: 36px 36px 36px 36px;
+     background-color: #ffffff;
+     width: 100%;
+     height: auto;
+     border-radius: 12px;
+     margin: 20px 0 0 0;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .history-inspector-place .line-vertical {
+     opacity: 0.2;
+     border: 1px solid #232323;
+     height: auto;
+ }
+ 
+ .history-inspector-place .detail-project {
+     width: 100%;
+     padding-right: 50px;
+ }
+ 
+ .history-inspector-place .detail-project .title {
+     font-family: "poppins-regular";
+     font-weight: 600;
+     font-size: 24px;
+     color: #2E157E;
+ }
+ 
+ .history-inspector-place .detail-project .info-detail-project {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 28px;
+ }
+ 
+ .history-inspector-place .detail-project .info-detail-project .title-info-detail-project {
+     color: #2E157E;
+     font-size: 16px;
+     font-family: "poppins-regular";
+     font-weight: 600;
+     flex: 3;
+ }
+ 
+ .history-inspector-place .detail-project .info-detail-project .desc-info-detail-project {
+     flex: 3;
+     color: #232323;
+     font-size: 16px;
+     font-family: "poppins-regular";
+ }
+ 
+ .history-inspector-place .detail-inspector {
+     width: 100%;
+     padding-left: 50px;
+ }
+ 
+ .history-inspector-place .detail-inspector .title {
+     font-family: "poppins-regular";
+     font-weight: 600;
+     font-size: 24px;
+     color: #2E157E;
+ }
+ 
+ .history-inspector-place .detail-inspector .info-detail-inspector {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .history-inspector-place .detail-inspector .info-detail-inspector .name-info-detail-inspector {
+     color: #232323;
+     font-size: 16px;
+     font-family: "poppins-regular";
+     flex: 4;
+     line-height: 35px;
+ }
+ 
+ .history-inspector-place .detail-inspector .info-detail-inspector .status-info-detail-inspector {
+     flex: 3;
+     height: 36px;
+     text-align: center;
+     padding: 6px 20px 6px 20px;
+     font-family: "poppins-medium";
+     font-weight: bold;
+ }
+ 
+ .history-inspector-place .detail-inspector .info-detail-inspector .status-color-info-detail-inspector {
+     background-color: rgba(254, 200, 61, 0.1);
+     color: #FEC83D;
+ }
+
+ .history-inspector-place .detail-inspector .info-detail-inspector .status-color-info-available-inspector {
+    background-color: rgba(33, 150, 83, 0.1);
+    color: #219653;
+  }
+ 
+ .history-inspector-place .detail-inspector .info-detail-inspector .empty-info-detail-inspector {
+     flex: 1;
+ }
+
+ .history-inspector-place .detail-inspector .btn-cancel{
+    width: 158px;
+    background-color: #FFFFFF;
+    height: 46px;
+    border: 2px solid #2E157E;
+    color: #2E157E;
+    font-family: "poppins-regular";
+    font-size: 16px;
+    border-radius: 6px;
+  }
+
+  .history-inspector-place .detail-inspector .btn-confirm{
+    width: 158px;
+    background-color: #FB6826;
+    height: 46px;
+    border: none;
+    color: white;
+    font-family: "poppins-regular";
+    font-size: 16px;
+    border-radius: 6px;
+  }
+ 
+ .spacer {
+     padding-top: 3%;
+ }

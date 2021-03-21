@@ -1,0 +1,53 @@
+.status-newproject {
+    background-color: rgba(24, 160, 251, 0.1);
+    width: 114px;
+    height: 36px;
+    padding: 6px 20px 6px 20px;
+    font-family: "poppins-medium";
+    color: #18A0FB;
+    font-weight: bold;
+}
+
+.status-waitingapproval {
+    background-color: rgba(254, 200, 61, 0.1);
+    width: 114px;
+    height: 36px;
+    padding: 6px 20px 6px 20px;
+    font-family: "poppins-medium";
+    color: #FEC83D;
+    font-weight: bold;
+}
+
+.status-clientapproved {
+    background-color: rgba(254, 200, 61, 0.1);
+    width: 114px;
+    height: 36px;
+    padding: 6px 20px 6px 20px;
+    font-family: "poppins-medium";
+    color: #F37D78;
+    font-weight: bold;
+}
+
+.status-inspectoravailable {
+  background-color: rgba(33, 150, 83, 0.1);
+  width: 114px;
+  height: 36px;
+  padding: 6px 20px 6px 20px;
+  font-family: "poppins-medium";
+  color: #291653;
+  font-weight: bold;
+}
+
+.status-inspectorbooking {
+  background-color: rgba(225, 0, 0, 0.1);
+  width: 114px;
+  height: 36px;
+  padding: 6px 20px 6px 20px;
+  font-family: "poppins-medium";
+  color: #E10000;
+  font-weight: bold;
+}
+
+.main-color-text {
+    color: #2E157E;
+}

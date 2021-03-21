@@ -1,0 +1,146 @@
+@font-face {
+    font-family: poppins-regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+  }
+  @font-face {
+      font-family: poppins-medium;
+      src: url(../client/fonts/Poppins/Poppins-Medium.ttf);
+  }
+  
+* {
+    font-size: 15px;
+	font-family: poppins-medium !important;
+}
+.text-header {
+    font-size: 24px;
+    color: #2E157E;
+    font-weight: 800;
+    margin-left: 5%;
+}
+
+.cl-p {
+    color: #2E157E;
+}
+
+.form-group > label {
+    color: #2E157E;
+    font-weight: 500;
+}
+
+.form-group > input {
+    border: 1.2px solid #2E157E;
+    border-radius: 6px;
+}
+
+/* .form-group > button {
+    width: auto;
+    text-align: center;
+} */
+
+.sub-title {
+    text-align: left;
+    color: #2E157E;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.container-centering {
+    width: 100%;
+    text-align: center;
+}
+
+.helper-text {
+    font-weight: 600;
+    /* font-style: italic; */
+    text-align: center;
+    color: #2E157E !important;
+}
+.split-right {
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-weight: normal;
+}
+
+.split-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+    font-weight: normal;
+}
+
+.btn-auth {
+    margin-top: 1.5em;
+    margin-bottom: 1.0em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.6em 1.5em;
+    font-size: 1.em;
+    color: #fff;
+    min-width: 40%;
+    border: 0;
+    width: auto;
+    border-radius: 6px;
+    vertical-align: auto;
+    background-color: #2E157E;
+}
+
+.btn-login {
+    margin-top: 1.5em;
+    margin-bottom: 1.0em;
+    padding: 0.6em 1.5em;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    font-weight: 500;
+    height: 43px;
+    border-radius: 6px;
+    vertical-align: auto;
+    background-color: #2E157E;
+}
+
+.register-form {
+    margin: 3px 3px 10px 0px;
+}
+
+.register-form > input {
+    height: 42px;
+}
+
+.text-register {
+    color: #2E157E;
+    font-weight: 700;
+}
+
+.dont-have-account-text {
+    margin-top: 1.7em;
+    text-align: center;
+}
+
+.mgt-2em {
+    margin-top: 1em;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.remember {    
+    font-weight: normal;
+    font-size: 16px !important;
+}
+
+a {
+    text-decoration: none;
+    color: #2E157E;
+}
+
+a:hover {
+    color: #2C137C;
+    text-shadow: 0px 0px 0.1px #2E157E;
+}
+
+.auth-box-regis {
+    height: 600px;
+}

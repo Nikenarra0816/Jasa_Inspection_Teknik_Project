@@ -1,0 +1,287 @@
+/*Title*/
+
+.title-create-new-project {
+    width: 100%;
+    margin: 25px 0 0 0;
+}
+
+.title-create-new-project .title-text {
+    font-family: "poppins-regular";
+    font-weight: 600;
+    font-size: 24px;
+    color: #2E157E;
+    line-height: 36px;
+}
+
+
+/*Content*/
+
+.create-new-project {
+    margin: 37px 0 0 0;
+}
+
+.create-new-project .create-new-project-place {
+    padding: 36px 36px 36px 36px;
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-new-project .create-new-project-place .download-upload-file {
+    width: 100%;
+}
+
+
+/*Download file*/
+
+.create-new-project .create-new-project-place .download-upload-file .download-file .title {
+    font-family: "poppins-medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+}
+
+.create-new-project .create-new-project-place .download-upload-file .download-file .btn-download {
+    margin: 12px 0 0 0;
+    background-color: #18A0FB;
+    border-radius: 6px;
+    width: 158px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins-regular";
+    font-size: 16px;
+}
+
+.create-new-project .create-new-project-place .download-upload-file .download-file .info-download-inquiry {
+    width: 412px;
+    margin: 21px 0 0 0;
+    font-family: "poppins-regular";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/*Upload File*/
+
+.create-new-project .create-new-project-place .download-upload-file .upload-file {
+    margin: 61px 0 0 0;
+}
+
+.create-new-project .create-new-project-place .download-upload-file .upload-file .title {
+    font-family: "poppins-medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+/*.create-new-project .create-new-project-place .download-upload-file .upload-file .drag-drop-upload-file-place{
+	width: 412px;
+	height: 202px;
+	margin: 20px 0 0 0;
+	background-color: #F7F5FA;
+}
+*/
+
+.create-new-project .create-new-project-place .download-upload-file .upload-file .dropzone {
+    width: 412px;
+    height: 202px;
+    margin: 20px 0 0 0;
+    background-color: #F7F5FA;
+    border: none;
+}
+
+.create-new-project .create-new-project-place .download-upload-file .upload-file .info-upload {
+    width: 412px;
+    margin: 21px 0 0 0;
+    font-family: "poppins-regular";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.dropzone .dz-message {
+    /*padding:50px 72px 0 72px;*/
+    font-family: "poppins-medium";
+    font-weight: 500;
+    font-size: 16px;
+    color: #232323;
+    line-height: 24px;
+    margin: 10px 0 0 0 !important;
+}
+
+
+/*Line divider*/
+
+.create-new-project .create-new-project-place .line-vertical {
+    opacity: 0.2;
+    border: 1px solid #232323;
+    height: auto;
+}
+
+
+/*Form Create new project*/
+
+.create-new-project .create-new-project-place .form-create-new-project {
+    width: 100%;
+    padding: 0 0 0 36px;
+}
+
+.create-new-project .create-new-project-place .form-create-new-project label {
+    font-family: "poppins-medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.create-new-project .create-new-project-place .form-create-new-project .input-place {
+    display: flex;
+    justify-content: space-around;
+}
+
+.create-new-project .create-new-project-place .form-create-new-project .input-place .form-control {
+    width: 90%;
+}
+
+.create-new-project .create-new-project-place .form-create-new-project .input-place img {
+    margin: 10px 0 0 0;
+}
+
+.create-new-project .create-new-project-place .form-create-new-project .secondary-label {
+    padding: 24px 0 12px 0;
+}
+
+.create-new-project .create-new-project-place .form-create-new-project .form-control {
+    height: 48px;
+    background-color: #F9F8FB;
+    border-radius: 6px;
+    border: none;
+    box-shadow: none;
+}
+
+.create-new-project .create-new-project-place .form-create-new-project .select-inspections {
+    border: 1.5px solid #2E157E;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: "poppins-regular";
+    padding-right: 100px;
+}
+
+.create-new-project .create-new-project-place .form-create-new-project .btn-submit-create-project {
+    width: 158px;
+    height: 46px;
+    color: #ffffff;
+    background: #2E157E;
+    border-radius: 6px;
+    margin: 36px 45px 0 0;
+    font-family: "poppins-regular";
+    font-size: 16px;
+}
+
+.dropzone .dz-preview .dz-remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 100px;
+    z-index: 99;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: #ffffff;
+    padding-top: 4px;
+    background-color: #F05A53;
+}
+
+.dropzone .dz-preview.dz-file-preview .dz-image {
+    background: #564197;
+}
+
+.spacer {
+    padding-top: 3%;
+}
+
+
+/*Tooltip*/
+
+.tooltip-custom {
+    display: inline-block;
+    position: relative;
+}
+
+.tooltip-custom .left {
+    min-width: 300px;
+    top: 50%;
+    right: 100%;
+    margin-right: 20px;
+    transform: translate(0, -50%);
+    color: #444444;
+    background-color: white;
+    font-weight: normal;
+    font-size: 13px;
+    border-radius: 8px;
+    border: 1px solid silver;
+    position: absolute;
+    z-index: 99999999;
+    box-sizing: border-box;
+    box-shadow: 0 1px 8px transparent;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+.tooltip-custom:hover .left {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-custom .left i {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -12px;
+    width: 12px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.tooltip-custom .left p {
+    padding: 8px;
+    font-size: 15px;
+    font-family: "poppins-medium";
+}
+
+.tooltip-custom .left i::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    background-color: white;
+    box-shadow: 0 1px 8px transparent;
+    border: 1px solid silver;
+}
+
+.tooltip-custom .left .heading-tooltip {
+    width: 100%;
+    padding: 3px 0 3px 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #F9F8FB;
+    border-bottom: 1px solid silver;
+}
+
+.otherinspection {
+    width: 90%;
+    margin-left: 5px;
+}
